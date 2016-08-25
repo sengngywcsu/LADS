@@ -1,0 +1,90 @@
+
+
+
+
+
+
+
+//recreate delete branch
+=============================
+git branch -m develop develop
+
+
+//Create branch
+===============================
+git checkout -b your_branch
+git push --set-upstream origin your_branch
+
+//Delete Branch
+================================
+git branch -d <branchName>
+git push origin --delete <branchName>
+
+
+git checkout master
+git pull               # to update the state to the latest remote master state
+git merge develop      # to bring changes to local master from your develop branch
+git push origin master # push current HEAD to remote master branch
+
+
+delete file
+============
+git rm file1.txt
+git commit -m "remove file1.txt"
+git push origin branch_name
+
+
+//Make change to unpushed commit
+==================================
+git commit --amend --no-edit
+
+
+//Unstage added file
+===================================
+git reset HEAD filename
+
+
+
+
+
+
+
+
+
+
+
+
+
+Need to be updatd:
+O:\nursing\faculty\default.asp
+
+
+O:\sps\fbiopuckhaber.asp
+O:\sps\fbiocampbell-E.asp
+O:\sps\fbioderonck.asp
+O:\sps\fbiostewart.asp
+O:\sps\facultybio.asp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
